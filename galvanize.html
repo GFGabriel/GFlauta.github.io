@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Inserting CSS to HTML -->
+    <link rel="stylesheet" type="text/css" title="light" href="assets/stylesheets/main.css">
+    <link rel="alternate stylesheet" type="text/css" title="dark" href="assets/stylesheets/dark.css">
+    <link rel="boring stylesheet" type="text/css" title="boring" href="assets/stylesheets/hidden.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Why Galvanize</title>
+    <script type="text/javascript" src="sound-mouseover.js"></script>
+  </head>
+  <body>
+
+    <header class="primary-header container group">
+
+      <h1 class="logo">
+        <div id="text">
+        <h1>G<span id="offset">E</span>OR<span id="offset1">GE<span> <br> <span id="offset1"> FL<span>A<span id="offset">UT<span>A</h1>
+      </div>
+      </h1>
+
+      <nav class="nav primary-nav underline">
+        <ul>
+          <li><a href="aboutme.html" onmouseover="playclip2();">About Me</a></li><!--
+          --><li><a href="galvanize.html" onmouseover="playclip2();">Why Galvanize?</a>
+        </ul>
+        <img src="assets/images/george-flauta.jpg" alt="George Flauta">
+      </nav>
+      <form>
+        <a onmouseover="playclip9();"><input class="btn-light-theme" type="submit" onclick="switch_style('light');return false;" name="theme" value="Light" id="light"></a>
+        <a onmouseover="playclip9();"><input class="btn-dark-theme" type="submit" onclick="switch_style('dark');return false;" name="theme" value="Dark" id="dark"></a>
+        <a onmouseover="playclip9();"><input class="btn-lame-theme" type="submit" onclick="switch_style('boring');return false;" name="theme" value="Plain" id="boring"></a>
+      </form>
+    </header>
+
+    <section class="row-alt banner" id="mercy-face">
+      <div class="lead container brown-overlay">
+        <h2 class="about-me">Why Galvanize?</h2>
+      </div>
+    </section>
+    <section class="row-alt2 banner" id="mercy">
+      <div class="lead container">
+        <p>Heroes Never Die!</p>
+      </div>
+    </section><!--
+    --><section class="row">
+      <div class="grid">
+        <section class="answer">
+          <div class="col-2-3">
+            <p>I have always been a fan of computers, particularly on the hardware side. There is something quite fun in building the perfect gaming rig. It wasn’t until my brother graduated from CU with a degree in Computer Science and got a job at some indie company, Google I believe it is called, that I started looking into it. I am a very rule based individual. I enjoy math, chemistry, schedules, and making spreadsheets. Programming appeals to that side of me. Machines understand things very black and white, 1s and 0s. So I started looking at various bootcamps. It just so happens that I met a graduate from Galvanize, along with finding out that a company my friend works at hires as many graduates as they can get their hands on. The both told me great things about the school so I signed up. After getting the coding challenge, having no knowledge of coding whatsoever, I blazed through the Code Academy course on Javascript and was immediately hooked. I am excited to jump further down the rabbit hole and become a coding pro.</p>
+            <a class="gif" href="about.htm" onmouseover="playclip6();"><img src="assets/images/mei.gif" alt="Mei Celebration" width="900"></a>
+          </div><!--
+          --><aside class="col-1-3">
+          <div class="icon">
+            <a href="about.htm" onmouseover="playclip5();">
+            <img src="assets/images/ressurect.png" alt="Ressurect"></a>
+          </div>
+          </aside>
+        </section>
+      </div>
+    </section>
+  </section>
+  <section class="row-alt banner" id="ana-face">
+    <div class="lead container blue-overlay">
+      <h2 class="about-me">After Galvinize</h2>
+    </div>
+  </section>
+    <section class="row-alt2 banner hide" id="ana">
+      <div class="lead container hide">
+        <p>You're Powered Up, Get In There!</p>
+      </div>
+    </section><!--
+    --><section class="row">
+      <div class="grid">
+        <section class="answer">
+          <div class="col-2-3">
+            <p>Once I graduate, I would like to work for a small to medium sized company that focuses on social justice. Anything from helping the homeless, veterans, women’s rights, children’s safety, marriage equality, the list goes on and on. Something where I can use my Sociology background along with my new programming skills to make an impact. Cliche I know, but there you have it.</p>
+          </div><!--
+          --><aside class="col-1-3">
+          <div class="icon">
+            <a href="about.htm" onmouseover="playclip7();">
+            <img src="assets/images/nanoboost.png" alt="Nano Boost"></a>
+          </div>
+          </aside>
+        </section>
+      </div>
+    </section>
+  </div>
+    <section class="row-alt2 banner" id="zenyatta-face">
+      <div class="lead container brown-overlay">
+        <h2 class="about-me">About Me</h2>
+      </div>
+    </section>
+    <section class="row-alt2 banner" id="zenyatta">
+      <div class="lead container">
+        <p>Experience Tranquility!</p>
+        <a class="btn btn-alt" href="aboutme.html" onmouseover="playclip8();">Read More<img src="assets/images/tranquility.png" alt="Tranquility"></a>
+      </div>
+    </section>
+
+    <footer class="primary-footer container group">
+      <nav class="nav underline">
+        <ul>
+          <li><a href="aboutme.html" onmouseover="playclip2();">About Me</a></li><!--
+          --><li><a href="galvanize.html" onmouseover="playclip2();">Galvanize</a></li>
+        </ul>
+      </nav>
+      <small>&copy; George Flauta / Sounds &copy; Blizzard Entertainment 2017</small>
+    </footer>
+
+    <audio id= "audio1" autoplay="autoplay" controls="controls" onloadeddata="setMidVolume()">
+       <source src="dj-khaled-clip.ogg" />
+       <source src="dj-khaled-clip.mp3" />
+    </audio>
+    <audio id="mySoundClip2">
+    <source src="click.mp3">
+    <source src="click.ogg">
+    </audio>
+    <div id="sounddiv"><bgsound id="sound"></div>
+
+    <audio id="mySoundClip5">
+    <source src="Mercy-ult.mp3">
+    <source src="Mercy-ult.ogg">
+    </audio>
+    <div id="sounddiv"><bgsound id="sound"></div>
+
+    <audio id="mySoundClip6">
+    <source src="Mei-setup.mp3">
+    <source src="Mei-setup.ogg">
+    </audio>
+    <div id="sounddiv"><bgsound id="sound"></div>
+
+    <audio id="mySoundClip7">
+    <source src="Ana-ult.mp3">
+    <source src="Ana-ult.ogg">
+    </audio>
+    <div id="sounddiv"><bgsound id="sound"></div>
+
+    <audio id="mySoundClip8">
+    <source src="Zenyatta-ult.mp3">
+    <source src="Zenyatta-ult.ogg">
+    </audio>
+    <div id="sounddiv"><bgsound id="sound"></div>
+
+    <audio id="mySoundClip9">
+    <source src="swoosh.mp3">
+    <source src="swoosh.ogg">
+    </audio>
+    <div id="sounddiv"><bgsound id="sound"></div>
+  </body>
+</html>
